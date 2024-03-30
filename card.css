@@ -1,0 +1,60 @@
+﻿html{
+    background-image:url("image/pay.jpg");
+    background-size: cover;
+}
+
+#main {
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: lightgrey;
+    opacity: 0.6;
+    width: 500px;
+    margin: 250px auto 0px auto;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.cardDetails{
+    padding: 10px;
+}
+
+.cardDetails td {
+    height: 50px;
+    box-sizing: border-box;
+    border: none;
+    padding: 15px;
+    
+}
+
+.cardDetails input {
+    height: 30px;
+    width:200px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    font-size: 15pt;
+}
+
+#pay{
+    padding: 15px;
+}
+
+.btnPay {
+    width: 200px;
+    padding: 10px;
+    margin-left: 135px;
+    background-color: #FFBB40;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 13pt;
+}
+
+    .btnPay:hover {
+        opacity: 0.8;
+        color: white;
+    }
+
+img{
+    width: 70px;
+    margin-left:135px;
+}
